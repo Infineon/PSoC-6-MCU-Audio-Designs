@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Name="CE218636_I2S" WorkspaceName="CE218636.cywrk">
+  <Version>1.10</Version>
+  <Keyword>I2S</Keyword>
+  <Keyword>Audio</Keyword>
+  <Keyword>Codec</Keyword>
+  <Keyword>I2S_PDL</Keyword>
+  <Keyword Hidden="true">CY8CKIT-062</Keyword>
+  <Description>This example demonstrates how to use the I2S hardware block in PSoC 6 to interface with an audio codec.</Description>
+  <DeviceFilter>PSoC 60</DeviceFilter>
+  <DeviceFilter>PSoC 61</DeviceFilter>
+  <DeviceFilter>PSoC 62</DeviceFilter>
+  <DeviceFilter>PSoC 63</DeviceFilter>
+  <Document>CE218636.pdf</Document>
+  <MinToolVersion>4.2</MinToolVersion>
+</Project>

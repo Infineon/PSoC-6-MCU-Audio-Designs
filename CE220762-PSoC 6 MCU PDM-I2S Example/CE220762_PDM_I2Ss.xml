@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Name="CE220762_PDM_I2S" WorkspaceName="CE220762.cywrk">
+  <Version>1.0</Version>
+  <Keyword>I2S</Keyword>
+  <Keyword>PDM</Keyword>
+  <Keyword>Audio</Keyword>
+  <Keyword>Codec</Keyword>
+  <Keyword>Recorder</Keyword>
+  <Keyword Hidden="true">CY8CKIT-062</Keyword>
+  <Description>This example demonstrates how to route Pulse-Density Modulation (PDM) audio data to the Inter-IC Sound (I2S) Interface in PSoC® 6 MCU.</Description>
+  <DeviceFilter>PSoC 60</DeviceFilter>
+  <DeviceFilter>PSoC 61</DeviceFilter>
+  <DeviceFilter>PSoC 62</DeviceFilter>
+  <DeviceFilter>PSoC 63</DeviceFilter>
+  <Document>CE220762.pdf</Document>
+  <MinToolVersion>4.2</MinToolVersion>
+</Project>

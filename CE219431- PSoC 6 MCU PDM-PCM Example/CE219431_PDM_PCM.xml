@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Name="CE219431_PDM_PCM" WorkspaceName="CE219431.cywrk">
+  <Version>1.0</Version>
+  <Keyword>PDM</Keyword>
+  <Keyword>PCM</Keyword>
+  <Keyword>Microphone</Keyword>
+  <Keyword>Audio</Keyword>
+  <Keyword>PDM_PCM_PDL</Keyword>
+  <Keyword Hidden="true">CY8CKIT-062</Keyword>
+  <Description>This example demonstrates how to use the PDM/PCM hardware block in PSoC 6 with a digital microphone.</Description>
+  <DeviceFilter>PSoC 60</DeviceFilter>
+  <DeviceFilter>PSoC 61</DeviceFilter>
+  <DeviceFilter>PSoC 62</DeviceFilter>
+  <DeviceFilter>PSoC 63</DeviceFilter>
+  <Document>CE219431.pdf</Document>
+  <MinToolVersion>4.2</MinToolVersion>
+</Project>

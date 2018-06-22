@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Name="CE222221_Voice_Recorder" WorkspaceName="CE222221_Voice_Recorder.cywrk">
+  <Version>1.0</Version>
+  <Keyword>I2S</Keyword>
+  <Keyword>PDM</Keyword>
+  <Keyword>SMIF</Keyword>
+  <Keyword>LCD</Keyword>
+  <Keyword>Audio</Keyword>
+  <Keyword>Codec</Keyword>
+  <Keyword>Recorder</Keyword>
+  <Keyword Hidden="true">CY8CKIT-062</Keyword>
+  <Description>This example demonstrates the use of PSoC 6 MCU to implement a voice recorder.</Description>
+  <DeviceFilter>PSoC 61</DeviceFilter>
+  <DeviceFilter>PSoC 62</DeviceFilter>
+  <DeviceFilter>PSoC 63</DeviceFilter>
+  <Document>CE222221.pdf</Document>
+  <MinToolVersion>4.2</MinToolVersion>
+</Project>
