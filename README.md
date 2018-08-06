@@ -42,7 +42,28 @@ To use the code examples in this repository, please download and install
 **Note** Please refer to the code example documentation for selecting the appropriate kit for testing the project
 
 ## Code Example List
+#### 1. CE218636 – PSoC 6 MCU Inter-IC Sound (I2S) Example
+This code example shows how to play a short audio on a speaker or headphone. The application stores the audio data in the
+flash memory. This data is written to the output TX FIFO of the I2S hardware block, which interfaces with an audio codec chip.
+The audio codec chip converts a digital audio stream into analog. The chip is configured by the PSoC 6 over an I2C interface.
+The code example includes the files codec.c/h, which wrap the configuration of the audio codec. 
 
+#### 2. CE219431 - PSoC 6 MCU PDM-to-PCM Example
+This example demonstrates how to use the pulse-density modulation/pulse-code modulation (PDM/PCM) hardware block in
+PSoC 6 with a digital microphone.
+
+#### 3. CE220762 – PSoC 6 MCU PDM to I2S Example
+This code example shows how to record a short audio sample from a microphone to SRAM, then play it on a speaker or
+headphone. The example uses DMA to transfer data from the PDM/PCM hardware block, which interfaces with a microphone,
+to SRAM. Once the recording is complete, other DMAs transfer the recorded data to the I2S hardware block, which interfaces
+with an audio codec chip. This configuration frees the CPU completely, so it can execute other tasks.
+
+#### 4. CE222221 – PSoC 6 MCU Voice Recorder
+This project shows how PSoC 6 MCU can be used to record audio data, store it and play it back. It uses a digital microphone
+with the PDM/PCM hardware block. All the audio data captured by the microphone is stored to an external flash memory. After
+the recording is completed, you can play the audio data over I2S, which interfaces with an audio codec. You can
+record/stop/play/pause/resume with CapSense® buttons. You can control the audio volume with the CapSense slider. The TFT
+LCD displays the current state of the voice recorder, the volume, and the time of the record/play.
 
 ## References
 #### 1. PSoC 6 MCU
