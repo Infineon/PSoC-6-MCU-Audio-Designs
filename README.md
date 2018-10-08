@@ -41,7 +41,7 @@ To use the code examples in this repository, please download and install
 
 **Note** Please refer to the code example documentation for selecting the appropriate kit for testing the project
 
-## Code Example List
+## Code Examples List
 #### 1. CE218636 – PSoC 6 MCU Inter-IC Sound (I2S) Example
 This code example shows how to play a short audio on a speaker or headphone. The application stores the audio data in the
 flash memory. This data is written to the output TX FIFO of the I2S hardware block, which interfaces with an audio codec chip.
